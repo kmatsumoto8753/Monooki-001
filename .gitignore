@@ -1,2 +1,4 @@
 .DS_Store
 *.pem
+NodeJS/AppService/myExpressApp/newrelic.js
+NodeJS/AppService/myExpressApp/newrelic_agent.log
