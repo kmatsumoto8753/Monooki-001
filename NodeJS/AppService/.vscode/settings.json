@@ -1,4 +1,0 @@
-{
-    "appService.defaultWebAppToDeploy": "undefined/subscriptions/428ef8df-ec1b-4af8-9d5e-8c746fc45ca3/resourceGroups/rg_azas/providers/Microsoft.Web/sites/azasnodejs02",
-    "appService.deploySubpath": "myExpressApp"
-}
