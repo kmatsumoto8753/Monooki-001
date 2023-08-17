@@ -1,0 +1,11 @@
+FROM amazonlinux:latest
+
+ARG gomodule="go1.21.0.linux-amd64.tar.gz"
+
+
+RUN yum install -y vim tmux git tar gzip wget && \
+    wget https://go.dev/dl/${gomodule}
+
+RUN rm -rf /usr/local/go && tar -C /usr/local -xzf ${gomodule}
+
+ENV PATH=$PATH:/usr/local/go/bin
